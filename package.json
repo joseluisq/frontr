@@ -14,7 +14,7 @@
     "type": "git",
     "url": "https://github.com/joseluisq/frontierjs.git"
   },
-  "devDependencies": {
+  "dependencies": {
     "minimist": "^1.1.0",
     "mocha": "^2.1.0",
     "nodegit": "^0.2.7"
@@ -23,6 +23,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
+    "postinstall": "npm install",
     "test": "mocha test"
   }
 }
