@@ -1,6 +1,6 @@
 {
   "name": "frontierjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple HTML5 and Sass Front-End base.",
   "author": "Jose Luis Quintana (https://github.com/joseluisq)",
   "license": "MIT",
@@ -23,7 +23,6 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "postinstall": "npm install",
     "test": "mocha test"
   }
 }
