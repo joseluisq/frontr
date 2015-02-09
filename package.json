@@ -1,0 +1,28 @@
+{
+  "name": "frontierjs",
+  "version": "1.0.0",
+  "description": "A simple HTML5 and Sass Front-End base.",
+  "author": "Jose Luis Quintana (https://github.com/joseluisq)",
+  "license": "MIT",
+  "keywords": [
+    "frontend",
+    "boilerplate"
+  ],
+  "bin": "./bin/frontier.js",
+  "preferGlobal": "true",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joseluisq/frontierjs.git"
+  },
+  "devDependencies": {
+    "minimist": "^1.1.0",
+    "mocha": "^2.1.0",
+    "nodegit": "^0.2.7"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha test"
+  }
+}

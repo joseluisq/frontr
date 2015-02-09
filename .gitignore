@@ -1,0 +1,17 @@
+node_modules
+npm-debug.log
+
+.tmp
+*.swo
+*.swp
+*.swn
+*.swm
+.DS_STORE
+*#
+*~
+.idea
+nbproject
+
+.temp
+.sass-cache
+.node_history
