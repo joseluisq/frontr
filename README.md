@@ -1,4 +1,4 @@
-# FrontierJS [![Build Status](http://img.shields.io/travis/joseluisq/frontierjs.svg?style=flat-square)](https://travis-ci.org/joseluisq/frontierjs)
+# Frontr [![Build Status](http://img.shields.io/travis/joseluisq/frontr.svg?style=flat-square)](https://travis-ci.org/joseluisq/frontr)
 
 > A simple HTML5 and Sass Front-End base.
 
@@ -8,7 +8,7 @@
 * [Gruntjs](http://gruntjs.org/) for Server and Build tasks
 * [Bower](http://bower.io/) for dependencies managment
 * [Sass](http://http://sass-lang.com/) pre-processor (With [libsass](https://github.com/sass/libsass) compiler)
-* [Pure](http://purecss.io/) CSS Framework v5.0
+* [Pure](http://purecss.io/) CSS Framework v5.0 (or you want)
 * [jQuery](http://jquery.com/) JS Framework
 * [Modernizr](http://modernizr.com/) JS library
 
@@ -24,7 +24,7 @@ It's necessary to install the following packages before:
 #### Installation
 
 ```sh
-$ npm install -g frontierjs
+$ npm install -g frontr
 ```
 
 #### Usage
@@ -32,7 +32,7 @@ $ npm install -g frontierjs
 **Create a project**
 
 ```sh
-$ frontierjs new my-project-name
+$ frontr new my-project-name
 ```
 
 **Run development server**
@@ -73,7 +73,7 @@ $ grunt dist --remote-access
 
 
 ### History
-Check out [the releases](https://github.com/joseluisq/frontierjs/releases) changelog.
+Check out [the releases](https://github.com/joseluisq/frontr/releases) changelog.
 
 ### License
 

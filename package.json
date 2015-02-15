@@ -1,6 +1,6 @@
 {
-  "name": "frontierjs",
-  "version": "1.0.5",
+  "name": "frontr",
+  "version": "1.0.6",
   "description": "A simple HTML5 and Sass Front-End base.",
   "author": "Jose Luis Quintana (https://github.com/joseluisq)",
   "license": "MIT",
@@ -8,11 +8,11 @@
     "frontend",
     "boilerplate"
   ],
-  "bin": "./bin/frontier.js",
+  "bin": "./bin/frontr.js",
   "preferGlobal": "true",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joseluisq/frontierjs.git"
+    "url": "https://github.com/joseluisq/frontr.git"
   },
   "dependencies": {
     "minimist": "^1.1.0",
