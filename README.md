@@ -24,7 +24,7 @@ It's necessary to install the following packages before:
 #### Installation
 
 ```sh
-$ npm install -g frontr
+$ npm install frontr -g
 ```
 
 #### Usage
@@ -32,7 +32,7 @@ $ npm install -g frontr
 **Create a project**
 
 ```sh
-$ frontr new my-project-name
+$ frontr --new my-project-name
 ```
 
 **Run development server**
@@ -71,6 +71,21 @@ $ grunt dist --remote-access
 
 **Note:** For ***remote access*** in ***Windows OS*** using the network IP instead 0.0.0.0
 
+
+### CLI
+
+```sh
+$ frontr --help
+
+  Usage:
+    --new <project-name>   Create a new project
+
+  Options:
+    -n, --new              Create a new project
+    -h, --help             Show this help
+    -v, --version          Show the version
+
+```
 
 ### History
 Check out [the releases](https://github.com/joseluisq/frontr/releases) changelog.

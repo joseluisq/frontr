@@ -1,11 +1,24 @@
+'use strict';
+
 var assert = require('assert');
+var Frontr = require('../');
 
-describe('Array', function(){
-  describe('#indexOf()', function(){
-    it('should return -1 when the value is not present', function(){
-      assert.equal(-1, [1,2,3].indexOf(5));
-      assert.equal(-1, [1,2,3].indexOf(0));
-    })
+describe('Frontr', function() {
+  this.timeout(15000);
+
+  it('should get false for empty project name', function() {
+
+    var frontr = new Frontr();
+    assert.equal(false, frontr.create());
   })
-});
 
+  it('should fetch to source and extract it to directory', function(done) {
+
+    var frontr = new Frontr('my-test-app');
+    frontr.create(function() {
+      done();
+    });
+
+  })
+
+});

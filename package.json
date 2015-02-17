@@ -1,28 +1,36 @@
 {
   "name": "frontr",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A simple HTML5 and Sass Front-End base.",
-  "author": "Jose Luis Quintana (https://github.com/joseluisq)",
   "license": "MIT",
+  "repository": "joseluisq/frontr",
+  "author": {
+    "name": "José Luis Quintana",
+    "email": "joseluisquintana20@gmail.com",
+    "url": "https://github.com/joseluisq"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "frontr": "cli.js"
+  },
+  "files": [
+    "cli.js",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "mocha test"
+  },
   "keywords": [
     "frontend",
     "boilerplate"
   ],
-  "bin": "./bin/frontr.js",
-  "preferGlobal": "true",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/joseluisq/frontr.git"
-  },
   "dependencies": {
-    "minimist": "^1.1.0",
-    "mocha": "^2.1.0",
-    "nodegit": "^0.2.7"
+    "download": "^4.0.0",
+    "get-stdin": "^4.0.1",
+    "meow": "^3.0.0",
+    "mocha": "^2.1.0"
   },
   "engines": {
     "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "mocha test"
   }
 }
