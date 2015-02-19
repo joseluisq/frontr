@@ -1,4 +1,4 @@
-# Frontr [![Build Status](http://img.shields.io/travis/joseluisq/frontr.svg?style=flat-square)](https://travis-ci.org/joseluisq/frontr)
+# Frontr [![](https://img.shields.io/npm/v/frontr.svg?style=flat-square)](https://www.npmjs.com/package/frontr) [![Build Status](http://img.shields.io/travis/joseluisq/frontr.svg?style=flat-square)](https://travis-ci.org/joseluisq/frontr)
 
 > A simple HTML5 and Sass Front-End base.
 
