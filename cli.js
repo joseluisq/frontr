@@ -27,9 +27,6 @@ var cli = meow({
   }
 });
 
-// console.log(cli);
-// return;
-
 function start() {
   var pkg = cli.pkg;
   var info = '\n' + pkg.name[0].toUpperCase() + pkg.name.slice(1) + '@' + pkg.version;
