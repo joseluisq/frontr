@@ -8,7 +8,7 @@ var meow = require('meow');
 var cli = meow({
   help: [
     'Usage:',
-    '  --new <project-name>   Create a new project',
+    '  frontr --new <project-name>   Create a new project',
     '',
     'Options:',
     '  -n, --new              Create a new project',
