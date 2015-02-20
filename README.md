@@ -78,7 +78,7 @@ $ grunt dist --remote-access
 $ frontr --help
 
   Usage:
-    --new <project-name>   Create a new project
+    frontr --new <project-name>   Create a new project
 
   Options:
     -n, --new              Create a new project
