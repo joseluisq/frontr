@@ -8,7 +8,7 @@
 * [Gruntjs](http://gruntjs.org/) for Server and Build tasks
 * [Bower](http://bower.io/) for dependencies managment
 * [Sass](http://http://sass-lang.com/) pre-processor (With [libsass](https://github.com/sass/libsass) compiler)
-* [Pure](http://purecss.io/) CSS Framework v5.0 (or any you want)
+* [Foundation](http://foundation.zurb.com/) CSS Framework v5 (or any you want)
 * [jQuery](http://jquery.com/) JS Framework
 * [Modernizr](http://modernizr.com/) JS library
 
@@ -33,6 +33,13 @@ $ npm install frontr -g
 
 ```sh
 $ frontr --new my-project-name
+```
+
+**Install dependecies**
+
+```sh
+$ cd my-project-name
+$ npm install
 ```
 
 **Run development server**
