@@ -27,6 +27,11 @@ var cli = meow({
   }
 });
 
+/**
+ * Show the package info for begin
+ *
+ * @access private
+ */
 function start() {
   var pkg = cli.pkg;
   var info = '\n' + pkg.name[0].toUpperCase() + pkg.name.slice(1) + '@' + pkg.version;
@@ -34,6 +39,11 @@ function start() {
   console.info(info);
 }
 
+/**
+ * Finish the console info
+ * @param {string} strname
+ * @access private
+ */
 function finish(strname) {
   var info = [
     '',
@@ -53,6 +63,11 @@ function finish(strname) {
   console.info(info.join('\n'));
 }
 
+/**
+ * Create the new project
+ * @param {string} strname
+ * @access private
+ */
 function create(strname) {
   var frontr = new Frontr(strname);
 
