@@ -1,6 +1,6 @@
 # Frontr 
 
-[![](https://img.shields.io/npm/v/frontr.svg?style=flat-square)](https://www.npmjs.com/package/frontr) [![Build Status](http://img.shields.io/travis/quintana-dev/frontr.svg?style=flat-square)](https://travis-ci.org/joseluisq/frontr) [![Inline docs](http://inch-ci.org/github/quintana-dev/frontr.svg?branch=master&style=flat-square)](http://inch-ci.org/github/quintana-dev/frontr)
+[![](https://img.shields.io/npm/v/frontr.svg?style=flat-square)](https://www.npmjs.com/package/frontr) [![Build Status](http://img.shields.io/travis/quintana-dev/frontr.svg?style=flat-square)](https://travis-ci.org/joseluisq/frontr) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/feross/standard) [![Inline docs](http://inch-ci.org/github/quintana-dev/frontr.svg?branch=master&style=flat-square)](http://inch-ci.org/github/quintana-dev/frontr)
 
 > A simple HTML5 and Sass Front-End base.
 

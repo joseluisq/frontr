@@ -1,13 +1,20 @@
 {
   "name": "frontr",
-  "version": "1.0.8",
-  "description": "A simple HTML5 and Sass Front-End base.",
+  "version": "1.0.9",
+  "description": "A simple CLI for HTML5 and Sass Front-End base.",
   "license": "MIT",
-  "repository": "joseluisq/frontr",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/quintana-dev/frontr.git"
+  },
   "author": {
     "name": "José Luis Quintana",
     "email": "joseluisquintana20@gmail.com",
-    "url": "https://github.com/joseluisq"
+    "url": "https://github.com/quintana-dev"
+  },
+  "homepage": "https://github.com/quintana-dev/frontr",
+  "bugs": {
+    "url": "https://github.com/quintana-dev/frontr/issues"
   },
   "preferGlobal": "true",
   "bin": {
