@@ -15,7 +15,7 @@ function Frontr(strname) {
 
   this.strname = strname;
   this.apprelease = '1.0.8';
-  this.zipball = 'https://github.com/joseluisq/frontr-app/archive/' + this.apprelease + '.zip';
+  this.zipball = 'https://github.com/quintana-dev/frontr-src/archive/' + this.apprelease + '.zip';
 }
 
 /**
